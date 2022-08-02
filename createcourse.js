@@ -13,7 +13,7 @@ function createlistofcourse() {
         name: namec,
         section: sec,
         courseState: 'ACTIVE',
-        ownerId: 'classroom.manager@fse-uy1.cm'
+        ownerId: 'classroom.manager@yourschooldomainname.edu'
     };
     var course = Classroom.Courses.create(cours);
     Logger.log('Cours créé: %s (%s)', course.name, course.id)
